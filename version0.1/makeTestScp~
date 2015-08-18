@@ -1,0 +1,39 @@
+#!/usr/local/bin/perl -w
+use strict;
+
+my ($scp,$pathOutput);
+
+# this script makes an scp "codetr.scp"
+
+if (@ARGV != 2) {
+  print ("@ARGV");
+  print "usage: $0 codetr.scp oneWord twoWord"; 
+  exit (0);
+}
+
+# read in command line arguments
+($scp, $pathOutput) = @ARGV;
+
+# open SCP file
+open (SCP,">$scp") || die ("Unable to open scp $scp file for writing");
+
+print "writing to scp file $scp\n";
+
+
+for(my($i) = 1; $i <= 200; $i++) {
+   if($i < 10)
+   {   
+       print SCP ("$pathOutput/T000$i."."mfc\n");
+   }
+   if(($i >= 10)&&($i<100))
+   {   
+       print SCP ("$pathOutput/T00$i."."mfc\n");
+   }
+   if($i >= 100)
+   {   
+       print SCP ("$pathOutput/T0$i."."mfc\n");
+   }
+}
+
+close(SCP);
+print "writing to $scp file done\n";

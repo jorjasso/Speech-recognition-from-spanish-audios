@@ -1,0 +1,10 @@
+generate the training data
+HSGen -l -n 200 wdnet dict > trainingPrompts
+
+generate the test data
+HSGen -l -n 200 wdnet dict > testPrompts
+
+record the training and the test data with 
+HSLab
+
+

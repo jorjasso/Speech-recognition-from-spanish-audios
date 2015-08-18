@@ -1,0 +1,4 @@
+perl prompts2wlist prompts wlist
+#HDMan -m -w wlist -n monophones1 -l dlog dict beep names
+HDMan -m -w wlist -n monophones1 -l dlog dict  names
+

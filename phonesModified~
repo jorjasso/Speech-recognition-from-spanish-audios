@@ -1,0 +1,29 @@
+#!/usr/local/bin/perl -w
+use strict;
+
+my ($phones0);
+
+if (@ARGV != 1) {
+  print "usage: $0 mlf promptlist\n\n"; 
+  exit (0);
+}
+
+# read in command line arguments
+($phones) = @ARGV;
+
+
+# open MLF file
+open (PHONES,">$phones0") || die ("Unable to open mlf $mlf file for writing");
+
+print "writing to phones0 file $phone0\n";
+
+# open phone0 file
+open (LAB, "$phone0") || die ("Unable to open prompt file $phone0");
+while ($line = <LAB>) {
+  if ($line=~/\"T/)
+  { print $line; }  
+}
+
+close (LAB);
+close(MLF);
+print "writing to $mlf file done\n";

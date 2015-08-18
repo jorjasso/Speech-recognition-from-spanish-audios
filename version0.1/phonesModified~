@@ -1,0 +1,37 @@
+#!/usr/local/bin/perl -w
+use strict;
+
+my ($phones0,$phones1,$line,$flag);
+
+if (@ARGV != 2) {
+  print "usage: $0 mlf promptlist\n\n"; 
+  exit (0);
+}
+
+# read in command line arguments
+($phones0,$phones1) = @ARGV;
+
+print "writing to phones0 file $phones0\n";
+
+# open phone0 file
+open (LAB, "$phones0") || die ("Unable to open prompt file $phones0");
+open (PHONE, ">$phones1") || die ("Unable to open prompt file $phones1");
+
+while ($line=<LAB>) {
+   
+  if ($line =~ /\"T/)
+  { print $line; 
+    $line =~s/\"T/T/; 
+    print $line;
+    print PHONE ("\"*/$line");
+  }
+  else  
+  {
+    print PHONE $line;
+  }
+}
+
+close (LAB);
+close (PHONE);
+
+print "writing to $phones0 file done\n";

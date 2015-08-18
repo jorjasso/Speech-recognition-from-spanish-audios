@@ -1,0 +1,12 @@
+create the proto file
+create the perl file train.scp
+    perl makesTrainScp train.scp /home/jorjasso/SpeechRecognitionSystem/3recordingTheData/testData
+
+change the config file with TARGETKIND = MFCC_0_D_A, and execute:
+
+
+>>HCompV -C config -f 0.01 -m -S train.scp -M hmm0 proto  
+ first create the hm0 folder by hand
+
+
+

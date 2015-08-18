@@ -1,0 +1,147 @@
+#!/usr/local/bin/perl -w
+use strict;
+
+#----------------------------------------------------
+#GRAMATICA
+#
+##-----system('HParse gram wdnet');
+print "FIN GRAMATICA\n";
+
+#----------------------------------------------------
+#DICCIONARIO
+#
+##-----system('perl prompts2wlist prompts wlist');
+##-----system('HDMan -m -w wlist -n monophones1 -l dlog dict names');
+print "FIN DICCIONARIO\n";
+
+#----------------------------------------------------
+#GRABAR DATOS
+#GENERAR DATOS DE ENTRENAMIENTO
+#HSGen -l -n 200 wdnet dict > trainingPrompts
+#GENERAR DATOS DE TEST
+#HSGen -l -n 200 wdnet dict > testPrompts
+#GRABAR DATOS CON HSLab
+print "GRABACION FINALIZADA\n";
+
+#----------------------------------------------------
+#CREANDO ARCHIVOS DE TRANSCRIPCION
+#CONVERTIR A NIVEL DE PALABRAS
+system('perl prompts2mlf testprompts.mlf testprompts');
+
+#CONFIGURAR SILENCIOS
+#	EX
+#	IS sil sil
+#	DE sp
+
+
+#CREAR ARCHIVOS DE TRANSCRIPCION A NIVEL DE FONEMA
+system('HLEd -d dict -i phones0.mlf mkphones0.led testprompts.mlf');
+print "ARCHIVOS DE TRANSCRIPCION A NIVEL DE FONEMA CONCLUIDOS\n";
+
+#----------------------------------------------------
+#EXTRAER MFCC
+#CREAR SCRIPT CON LAS RUTAS
+#/home/.../testData/T0001.wav /home/../testData/T0001.mfc
+#/home/.../testData/T0002.wav /home/../testData/T0002.mfc
+#/home/.../testData/T0003.wav /home/../testData/T0003.mfc
+#with (makescp is a user program in perl)
+system('perl makescp codetr.scp /home/jorjasso/SpeechRecognitionSystem/version0.3/trainingData /home/jorjasso/SpeechRecognitionSystem/version0.3/trainingData');
+
+#CREAR ARCHIVO DE CONFIGURACION
+# Coding parameters
+#TARGETKIND = MFCC_0
+#TARGETRATE = 100000.0
+#SAVECOMPRESSED = T
+#SAVEWITHCRC = T
+#WINDOWSIZE = 250000.0
+#USEHAMMING = T
+#PREEMCOEF = 0.97
+#NUMCHANS = 26
+#CEPLIFTER = 22
+#NUMCEPS = 12
+#ENORMALISE = F
+
+#EXTRAER MFCC
+system('HCopy -T 1 -C config0 -S codetr.scp');
+print "MFCC extraidos\n";
+
+#----------------------------------------------------
+#INICIALIZACIÒN FLAT START PARA LOS HMM
+#create the proto file
+#create the perl file train.scp
+system('perl makesTrainScp train.scp /home/jorjasso/SpeechRecognitionSystem/version0.3/trainingData');
+    
+#CAMBIAR PARAMETROS DE CONFIGURACION TARGETKIND = MFCC_0_D_A
+system('HCompV -C config1 -f 0.01 -m -S train.scp -M hmm0 proto  ');
+
+#CREAR FOLDER HMM A MANO
+
+#ENTRENAMIENTO DE LOS HMM
+system('perl phonesModified phones0.mlf phones1.mlf');
+
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm0/macros -H hmm0/hmmdefs -M hmm1 monophones0');
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm1/macros -H hmm1/hmmdefs -M hmm2 monophones0');
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm2/macros -H hmm2/hmmdefs -M hmm3 monophones0');
+
+#----------------------------------------------------
+#CONFIGURAR LOS SILENCIOS
+#ARCHIVO sil.hed 
+#AT 2 4 0.2 {sil.transP}
+#AT 4 2 0.2 {sil.transP}
+#AT 1 3 0.3 {sp.transP}
+#TI silst {sil.state[3],sp.state[2]}
+
+system('HHEd -H hmm4/macros -H hmm4/hmmdefs -M hmm5 sil.hed monophones1');
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm5/macros -H hmm5/hmmdefs -M hmm6 monophones1');
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm6/macros -H hmm6/hmmdefs -M hmm7 monophones1');
+
+#----------------------------------------------------
+#ENTRENAMIENTO DE LOS HMM: ALINEANDO LOS DATOS
+#CREAR DICT1 Y AGREGAR SILENCE SIL
+
+#system('HVite -l ’*’ -o SWT -b SILENCE -C config1 -a -H hmm7/macros –H hmm7/hmmdefs –i aligned.mlf –m –t 250 –y lab –I testprompts.mlf  -S train.scp dict1 monophones1');
+
+system('HVite -A -D -T 1 -l ’*’ -o SWT -b silence -C config1 -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I testprompts.mlf -S train.scp dict1 monophones1> HVite_log');
+
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm7/macros -H hmm7/hmmdefs -M hmm8 monophones1');
+system('HERest -C config1 -I phones1.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm8/macros -H hmm8/hmmdefs -M hmm9 monophones1');
+
+#MODIFICAR '*'/T00... -> */T000
+system('perl alignedModified aligned.mlf aligned1.mlf');
+
+
+#----------------------------------------------------
+#TRIFONEMAS A PARTIR DE FONEMAS
+system('HLEd -n triphones1 -l ’*’ -i wintri.mlf mktri.led aligned1.mlf');
+
+#MODIFICAR '*'/T00... -> */T000
+system('perl alignedModified wintri.mlf wintri1.mlf');
+
+system('perl maketrihed monophones1 triphones1');
+
+system('HHEd -B -H hmm9/macros -H hmm9/hmmdefs -M hmm10 mktri.hed monophones1');
+
+system(' HERest  -C config1 -I wintri1.mlf -t 250.0 150.0 1000.0 -s stats -S train.scp -H hmm10/macros -H hmm10/hmmdefs -M hmm11 triphones1');
+system(' HERest  -C config1 -I wintri1.mlf -t 250.0 150.0 1000.0 -s stats -S train.scp -H hmm11/macros -H hmm11/hmmdefs -M hmm12 triphones1');
+
+
+#----------------------------------------------------
+#LIGAR TRIFONEMAS
+system('perl mkclscript.prl TB 350 monophones1 > tree.hed');
+	
+system('HDMan -b sp -n fulllist -g global.ded -l flog beep-tri dict');
+
+#remover entradas duplicadas
+system('perl removeDuplicatesEntries fulllist fulllist1');
+
+#recuperar y guardar los archivos fulllist1Bakcup y treeBacup.hed, renombrarlos, usar el siguiente comando:
+	
+#HHEd -B -H hmm12/macros -H hmm12/hmmdefs -M hmm13 tree.hed triphones1>LOG
+
+#HERest -C config1 -I wintri1.mlf -t 250 150 1000 -s stats -S train.scp -H hmm13/macros -H hmm13/hmmdefs -M hmm14 tiedlist
+#HERest -C config1 -I wintri1.mlf -t 250 150 1000 -s stats -S train.scp -H hmm14/macros -H hmm14/hmmdefs -M hmm15 tiedlist
+
+
+
+
+

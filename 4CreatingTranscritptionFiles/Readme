@@ -1,0 +1,17 @@
+convert the prompt utterances in MLF format (word level MLF)
+    >>perl prompts2mlf testprompts.mlf testprompts
+
+create the file mkphones0.led with 
+
+	EX
+	IS sil sil
+	DE sp
+
+
+create phone level MLF
+    >>HLEd -d dict -i phones0.mlf mkphones0.led testprompts.mlf
+
+
+
+
+

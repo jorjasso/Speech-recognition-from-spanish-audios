@@ -1,0 +1,28 @@
+create the script file codetr.scp with the following:
+/home/.../testData/T0001.wav /home/../testData/T0001.mfc
+/home/.../testData/T0002.wav /home/../testData/T0002.mfc
+/home/.../testData/T0003.wav /home/../testData/T0003.mfc
+.
+.
+.
+
+with (makescp is a user program in perl)
+>>perl      makescp codetr.scp /home/../testData /home/../testData
+
+create a config file with: (for test data TARGETKIND = MFCC_0_D_A)
+# Coding parameters
+TARGETKIND = MFCC_0
+TARGETRATE = 100000.0
+SAVECOMPRESSED = T
+SAVEWITHCRC = T
+WINDOWSIZE = 250000.0
+USEHAMMING = T
+PREEMCOEF = 0.97
+NUMCHANS = 26
+CEPLIFTER = 22
+NUMCEPS = 12
+ENORMALISE = F
+
+and finally (for training and test data)
+
+>>HCopy -T 1 -C config -S codetr.scp

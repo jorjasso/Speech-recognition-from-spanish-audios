@@ -1,0 +1,633 @@
+HVite -A -D -T 1 -l ’*’ -o SWT -b silence -C config1 -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I testprompts.mlf -S train.scp dict1 monophones1 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                 FALSE
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND            MFCC_0_D_A
+
+Read 25 physical / 25 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0001.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+silence TELEFONO DOS SEIS CUATRO TRES UNO OCHO DOS CINCO CINCO CUATRO UNO SEIS CUATRO SEIS CERO CINCO SIETE CUATRO NUEVE CERO silence  ==  [1760 frames] -58.2037 [Ac=-102438.4 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0002.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [350 frames] -56.0374 [Ac=-19613.1 LM=0.0] (Act=7.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0003.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence TELEFONO SEIS SIETE SIETE UNO UNO DOS DOS UNO SIETE CINCO CUATRO OCHO silence  ==  [1093 frames] -57.4645 [Ac=-62808.7 LM=0.0] (Act=7.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0004.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [300 frames] -56.2947 [Ac=-16888.4 LM=0.0] (Act=8.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0005.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [312 frames] -54.1909 [Ac=-16907.6 LM=0.0] (Act=10.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0006.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LEON silence  ==  [286 frames] -54.2515 [Ac=-15515.9 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0007.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [287 frames] -60.2526 [Ac=-17292.5 LM=0.0] (Act=7.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0008.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence TELEFONO OCHO SIETE SIETE DOS CERO TRES OCHO CERO CUATRO silence  ==  [901 frames] -59.2735 [Ac=-53405.4 LM=0.0] (Act=7.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0009.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO UNO silence  ==  [203 frames] -59.9233 [Ac=-12164.4 LM=0.0] (Act=5.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0010.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LEON silence  ==  [236 frames] -59.1683 [Ac=-13963.7 LM=0.0] (Act=8.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0011.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [222 frames] -57.9337 [Ac=-12861.3 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0012.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence TELEFONO SEIS TRES silence  ==  [376 frames] -57.3687 [Ac=-21570.6 LM=0.0] (Act=6.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0013.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [261 frames] -60.1956 [Ac=-15711.1 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0014.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+silence TELEFONO DOS OCHO NUEVE SIETE CUATRO CINCO CERO DOS CERO TRES CINCO CINCO SEIS NUEVE NUEVE CINCO OCHO DOS silence  ==  [1439 frames] -62.5353 [Ac=-89988.2 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0015.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [338 frames] -59.8517 [Ac=-20229.9 LM=0.0] (Act=8.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0016.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+silence TELEFONO CERO CINCO DOS OCHO CINCO CUATRO OCHO CUATRO OCHO TRES CINCO SIETE CINCO SEIS TRES UNO SIETE CINCO CINCO CINCO TRES CERO DOS silence  ==  [1888 frames] -61.3431 [Ac=-115815.8 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0017.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [261 frames] -57.4099 [Ac=-14984.0 LM=0.0] (Act=9.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0018.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [350 frames] -56.3906 [Ac=-19736.7 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0019.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence TELEFONO UNO UNO SIETE OCHO DOS TRES CUATRO CERO CERO DOS SEIS CINCO CUATRO SIETE SEIS silence  ==  [1292 frames] -60.0085 [Ac=-77531.0 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0020.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [299 frames] -55.2510 [Ac=-16520.0 LM=0.0] (Act=9.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0021.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [312 frames] -60.1909 [Ac=-18779.5 LM=0.0] (Act=7.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0022.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [339 frames] -59.0680 [Ac=-20024.0 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0023.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [286 frames] -58.9229 [Ac=-16851.9 LM=0.0] (Act=7.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0024.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [363 frames] -58.9236 [Ac=-21389.3 LM=0.0] (Act=9.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0025.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [280 frames] -59.2387 [Ac=-16586.8 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0026.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TELEFONO SEIS TRES OCHO OCHO OCHO CINCO OCHO OCHO CINCO UNO silence  ==  [1029 frames] -57.3244 [Ac=-58986.9 LM=0.0] (Act=8.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0027.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO UNO CINCO NUEVE DOS CINCO CUATRO silence  ==  [627 frames] -59.3469 [Ac=-37210.5 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0028.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence TELEFONO DOS CUATRO CERO SEIS CINCO SIETE NUEVE NUEVE SEIS CUATRO SEIS silence  ==  [1004 frames] -58.9561 [Ac=-59192.0 LM=0.0] (Act=6.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0029.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [222 frames] -62.3637 [Ac=-13844.7 LM=0.0] (Act=8.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0030.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO SIETE silence  ==  [267 frames] -61.6790 [Ac=-16468.3 LM=0.0] (Act=6.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0031.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [222 frames] -62.0961 [Ac=-13785.3 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0032.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [222 frames] -63.0581 [Ac=-13998.9 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0033.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [363 frames] -60.8954 [Ac=-22105.0 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0034.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [299 frames] -58.0751 [Ac=-17364.5 LM=0.0] (Act=8.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0035.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LEON silence  ==  [209 frames] -63.0436 [Ac=-13176.1 LM=0.0] (Act=7.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0036.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LUIS silence  ==  [248 frames] -58.5228 [Ac=-14513.6 LM=0.0] (Act=7.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0037.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [312 frames] -61.1093 [Ac=-19066.1 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0038.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [338 frames] -61.7476 [Ac=-20870.7 LM=0.0] (Act=8.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0039.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [273 frames] -65.9544 [Ac=-18005.5 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0040.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [325 frames] -60.5878 [Ac=-19691.0 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0041.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [184 frames] -66.9966 [Ac=-12327.4 LM=0.0] (Act=8.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0042.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LUIS silence  ==  [286 frames] -58.7661 [Ac=-16807.1 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0043.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [325 frames] -61.2526 [Ac=-19907.1 LM=0.0] (Act=8.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0044.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [363 frames] -59.2245 [Ac=-21498.5 LM=0.0] (Act=8.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0045.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [286 frames] -64.2495 [Ac=-18375.3 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0046.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LEON silence  ==  [261 frames] -58.2026 [Ac=-15190.9 LM=0.0] (Act=8.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0047.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [248 frames] -64.8567 [Ac=-16084.5 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0048.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [261 frames] -59.5011 [Ac=-15529.8 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0049.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR CARLOS DIAZ silence  ==  [312 frames] -64.9403 [Ac=-20261.4 LM=0.0] (Act=8.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0050.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [273 frames] -57.8476 [Ac=-15792.4 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0051.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TELEFONO SEIS DOS CUATRO SIETE silence  ==  [414 frames] -61.4200 [Ac=-25427.9 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0052.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LEON silence  ==  [235 frames] -58.0810 [Ac=-13649.0 LM=0.0] (Act=8.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0053.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence TELEFONO UNO UNO CINCO silence  ==  [338 frames] -58.5574 [Ac=-19792.4 LM=0.0] (Act=6.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0054.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR DIAZ silence  ==  [248 frames] -57.2275 [Ac=-14192.4 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0055.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LEON silence  ==  [179 frames] -63.7376 [Ac=-11409.0 LM=0.0] (Act=8.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0056.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR CARLOS DIAZ silence  ==  [248 frames] -63.8769 [Ac=-15841.5 LM=0.0] (Act=8.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0057.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO DOS silence  ==  [209 frames] -58.2313 [Ac=-12170.3 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0058.mfc
+Created lattice with 40 nodes / 39 arcs from label file
+silence TELEFONO CERO DOS SIETE UNO CUATRO NUEVE NUEVE CERO TRES CUATRO CUATRO OCHO NUEVE OCHO NUEVE SIETE UNO CUATRO CINCO CUATRO DOS SEIS CUATRO CINCO SEIS CINCO CINCO TRES SIETE DOS CUATRO SEIS CINCO SEIS CERO DOS CERO silence  ==  [2785 frames] -59.5542 [Ac=-165858.5 LM=0.0] (Act=7.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0059.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR DIAZ silence  ==  [222 frames] -58.7217 [Ac=-13036.2 LM=0.0] (Act=8.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0060.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [235 frames] -58.7111 [Ac=-13797.1 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0061.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence TELEFONO NUEVE SEIS silence  ==  [299 frames] -61.1945 [Ac=-18297.1 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0062.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [273 frames] -60.1090 [Ac=-16409.8 LM=0.0] (Act=8.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0063.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [261 frames] -60.0982 [Ac=-15685.6 LM=0.0] (Act=8.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0064.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TELEFONO SEIS SIETE CERO NUEVE silence  ==  [427 frames] -62.3661 [Ac=-26630.3 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0065.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO CERO silence  ==  [209 frames] -61.5591 [Ac=-12865.9 LM=0.0] (Act=6.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0066.mfc
+Created lattice with 28 nodes / 27 arcs from label file
+silence TELEFONO SEIS NUEVE UNO NUEVE CINCO NUEVE OCHO DOS TRES SIETE SIETE CERO CERO NUEVE UNO UNO TRES DOS CUATRO DOS UNO CINCO CINCO CUATRO SEIS silence  ==  [1849 frames] -60.7041 [Ac=-112241.9 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0067.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence TELEFONO SIETE TRES SEIS SEIS SIETE TRES NUEVE SEIS NUEVE TRES DOS CUATRO DOS silence  ==  [1234 frames] -59.1823 [Ac=-73031.0 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0068.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LEON silence  ==  [262 frames] -56.1626 [Ac=-14714.6 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0069.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TELEFONO SEIS UNO CERO UNO silence  ==  [453 frames] -61.4136 [Ac=-27820.3 LM=0.0] (Act=6.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0070.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO DOS silence  ==  [261 frames] -59.9156 [Ac=-15638.0 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0071.mfc
+Created lattice with 27 nodes / 26 arcs from label file
+silence TELEFONO SIETE DOS OCHO SEIS CERO NUEVE SIETE SIETE OCHO UNO UNO OCHO SEIS TRES CINCO SIETE OCHO OCHO DOS OCHO UNO DOS CINCO OCHO silence  ==  [1990 frames] -60.3260 [Ac=-120048.7 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0072.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO UNO UNO CERO CERO CINCO UNO silence  ==  [619 frames] -57.3933 [Ac=-35526.4 LM=0.0] (Act=6.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0073.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [312 frames] -59.1683 [Ac=-18460.5 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0074.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO CUATRO CINCO UNO SEIS OCHO DOS silence  ==  [607 frames] -60.4740 [Ac=-36707.7 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0075.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence TELEFONO SEIS SIETE CERO TRES CINCO TRES TRES TRES silence  ==  [748 frames] -58.2607 [Ac=-43579.0 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0076.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [389 frames] -56.6373 [Ac=-22031.9 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0077.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TELEFONO TRES TRES CINCO UNO silence  ==  [427 frames] -60.1892 [Ac=-25700.8 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0078.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO DOS DOS OCHO CINCO DOS SEIS silence  ==  [664 frames] -60.8509 [Ac=-40405.0 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0079.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [363 frames] -60.7754 [Ac=-22061.5 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0080.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [299 frames] -57.7395 [Ac=-17264.1 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0081.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO SEIS silence  ==  [222 frames] -61.2392 [Ac=-13595.1 LM=0.0] (Act=5.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0082.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TELEFONO OCHO SIETE CERO OCHO silence  ==  [523 frames] -65.6513 [Ac=-34335.6 LM=0.0] (Act=7.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0083.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LUIS silence  ==  [248 frames] -58.0783 [Ac=-14403.4 LM=0.0] (Act=7.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0084.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+silence TELEFONO SIETE UNO CERO CINCO UNO TRES SIETE CERO CINCO CERO NUEVE NUEVE TRES CERO DOS TRES silence  ==  [1491 frames] -60.6800 [Ac=-90473.9 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0085.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence TELEFONO TRES OCHO CERO silence  ==  [376 frames] -60.7106 [Ac=-22827.2 LM=0.0] (Act=6.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0086.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence TELEFONO OCHO TRES DOS NUEVE SIETE CINCO CUATRO CERO SIETE OCHO OCHO CUATRO NUEVE UNO DOS silence  ==  [1446 frames] -60.6467 [Ac=-87695.2 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0087.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [254 frames] -59.2868 [Ac=-15058.8 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0088.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [389 frames] -57.8653 [Ac=-22509.6 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0089.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [312 frames] -64.9257 [Ac=-20256.8 LM=0.0] (Act=9.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0090.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [273 frames] -57.5174 [Ac=-15702.2 LM=0.0] (Act=8.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0091.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [312 frames] -60.9391 [Ac=-19013.0 LM=0.0] (Act=10.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0092.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO DOS UNO CINCO DOS TRES CERO silence  ==  [709 frames] -56.2485 [Ac=-39880.2 LM=0.0] (Act=6.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0093.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence TELEFONO OCHO DOS DOS silence  ==  [402 frames] -60.7685 [Ac=-24428.9 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0094.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [427 frames] -56.4189 [Ac=-24090.9 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0095.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [338 frames] -59.2244 [Ac=-20017.9 LM=0.0] (Act=6.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0096.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO UNO silence  ==  [325 frames] -58.2404 [Ac=-18928.1 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0097.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [235 frames] -63.8939 [Ac=-15015.1 LM=0.0] (Act=10.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0098.mfc
+Created lattice with 55 nodes / 54 arcs from label file
+silence TELEFONO TRES CUATRO DOS OCHO CINCO CUATRO UNO CUATRO CINCO DOS CERO SIETE CERO TRES TRES SIETE CERO CINCO TRES SIETE CINCO CINCO SIETE CERO UNO SEIS SIETE OCHO DOS UNO UNO OCHO UNO NUEVE NUEVE NUEVE UNO DOS DOS CUATRO SIETE SIETE SIETE CUATRO TRES CERO CUATRO DOS NUEVE TRES CINCO TRES silence  ==  [4313 frames] -59.9085 [Ac=-258385.4 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0099.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [338 frames] -57.2324 [Ac=-19344.5 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0100.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [286 frames] -53.7862 [Ac=-15382.8 LM=0.0] (Act=8.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0101.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [209 frames] -59.8421 [Ac=-12507.0 LM=0.0] (Act=8.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0102.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [261 frames] -56.5616 [Ac=-14762.6 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0103.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO UNO silence  ==  [222 frames] -55.1044 [Ac=-12233.2 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0104.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [261 frames] -56.8399 [Ac=-14835.2 LM=0.0] (Act=10.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0105.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR CARLOS DIAZ silence  ==  [235 frames] -64.4645 [Ac=-15149.2 LM=0.0] (Act=9.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0106.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence TELEFONO DOS CUATRO CINCO CUATRO CERO NUEVE CERO TRES TRES NUEVE TRES TRES NUEVE silence  ==  [1183 frames] -57.8054 [Ac=-68383.8 LM=0.0] (Act=6.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0107.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [286 frames] -61.8965 [Ac=-17702.4 LM=0.0] (Act=10.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0108.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [325 frames] -61.1648 [Ac=-19878.6 LM=0.0] (Act=9.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0109.mfc
+Created lattice with 29 nodes / 28 arcs from label file
+silence TELEFONO SEIS TRES DOS TRES SEIS UNO SIETE TRES SIETE OCHO CERO DOS OCHO CINCO DOS CERO CERO NUEVE CUATRO SIETE SIETE CERO UNO SEIS TRES CUATRO silence  ==  [2170 frames] -59.1782 [Ac=-128416.7 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0110.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence TELEFONO UNO CINCO SEIS NUEVE SIETE SIETE OCHO CUATRO CUATRO OCHO CINCO silence  ==  [1093 frames] -60.2064 [Ac=-65805.6 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0111.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence TELEFONO CINCO SEIS SIETE SIETE CINCO OCHO UNO CINCO CINCO silence  ==  [863 frames] -58.8895 [Ac=-50821.6 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0112.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [312 frames] -58.8642 [Ac=-18365.6 LM=0.0] (Act=10.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0113.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence TELEFONO SEIS SEIS TRES CINCO CINCO silence  ==  [517 frames] -57.1966 [Ac=-29570.6 LM=0.0] (Act=6.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0114.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [363 frames] -57.2795 [Ac=-20792.5 LM=0.0] (Act=8.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0115.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO SIETE silence  ==  [222 frames] -60.4255 [Ac=-13414.5 LM=0.0] (Act=6.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0116.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [350 frames] -56.3581 [Ac=-19725.3 LM=0.0] (Act=7.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0117.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [273 frames] -60.9093 [Ac=-16628.2 LM=0.0] (Act=10.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0118.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence TELEFONO CERO NUEVE OCHO UNO CINCO silence  ==  [543 frames] -60.1802 [Ac=-32677.9 LM=0.0] (Act=6.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0119.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [299 frames] -60.3156 [Ac=-18034.4 LM=0.0] (Act=7.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0120.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence TELEFONO DOS NUEVE SIETE CINCO DOS OCHO CERO silence  ==  [735 frames] -59.1223 [Ac=-43454.9 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0121.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR GUEVARA silence  ==  [184 frames] -62.5356 [Ac=-11506.5 LM=0.0] (Act=8.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0122.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LUIS silence  ==  [273 frames] -55.5261 [Ac=-15158.6 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0123.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO UNO silence  ==  [261 frames] -57.4345 [Ac=-14990.4 LM=0.0] (Act=5.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0124.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [273 frames] -55.5260 [Ac=-15158.6 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0125.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LUIS silence  ==  [261 frames] -56.2817 [Ac=-14689.5 LM=0.0] (Act=7.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0126.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence TELEFONO CUATRO TRES CUATRO DOS NUEVE UNO OCHO DOS DOS silence  ==  [799 frames] -62.3968 [Ac=-49855.1 LM=0.0] (Act=7.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0127.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR CARLOS DIAZ silence  ==  [248 frames] -65.3533 [Ac=-16207.6 LM=0.0] (Act=8.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0128.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [351 frames] -56.5328 [Ac=-19843.0 LM=0.0] (Act=9.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0129.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence TELEFONO UNO CERO SIETE SIETE CUATRO SIETE SEIS TRES silence  ==  [671 frames] -62.5336 [Ac=-41960.1 LM=0.0] (Act=6.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0130.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence TELEFONO SIETE DOS silence  ==  [299 frames] -61.5054 [Ac=-18390.1 LM=0.0] (Act=6.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0131.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [312 frames] -58.9855 [Ac=-18403.5 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0132.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [363 frames] -58.4062 [Ac=-21201.4 LM=0.0] (Act=8.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0133.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [325 frames] -59.2942 [Ac=-19270.6 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0134.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LEON silence  ==  [261 frames] -55.7215 [Ac=-14543.3 LM=0.0] (Act=7.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0135.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [350 frames] -58.8876 [Ac=-20610.7 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0136.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LEISSI LEON silence  ==  [299 frames] -58.7883 [Ac=-17577.7 LM=0.0] (Act=8.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0137.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+silence TELEFONO TRES CUATRO UNO UNO DOS UNO OCHO SEIS SIETE CERO UNO TRES OCHO DOS SIETE SEIS TRES DOS NUEVE CERO CINCO silence  ==  [1683 frames] -60.1292 [Ac=-101197.5 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0138.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [261 frames] -57.3888 [Ac=-14978.5 LM=0.0] (Act=7.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0139.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TELEFONO CERO CINCO OCHO TRES silence  ==  [440 frames] -60.0463 [Ac=-26420.4 LM=0.0] (Act=6.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0140.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [325 frames] -59.0992 [Ac=-19207.2 LM=0.0] (Act=10.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0141.mfc
+Created lattice with 32 nodes / 31 arcs from label file
+silence TELEFONO CERO OCHO CINCO NUEVE CINCO CINCO DOS TRES DOS UNO CINCO TRES DOS SIETE CINCO UNO SEIS DOS CUATRO CINCO NUEVE NUEVE SEIS SIETE CINCO TRES NUEVE OCHO OCHO silence  ==  [2413 frames] -60.7957 [Ac=-146700.1 LM=0.0] (Act=6.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0142.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [299 frames] -57.4335 [Ac=-17172.6 LM=0.0] (Act=7.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0143.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR LUIS silence  ==  [171 frames] -59.2012 [Ac=-10123.4 LM=0.0] (Act=7.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0144.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [222 frames] -60.2266 [Ac=-13370.3 LM=0.0] (Act=9.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0145.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [222 frames] -60.9721 [Ac=-13535.8 LM=0.0] (Act=8.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0146.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR DIAZ silence  ==  [248 frames] -57.9351 [Ac=-14367.9 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0147.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR GUEVARA silence  ==  [235 frames] -59.2115 [Ac=-13914.7 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0148.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [273 frames] -61.5454 [Ac=-16801.9 LM=0.0] (Act=6.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0149.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence TELEFONO SIETE CINCO silence  ==  [273 frames] -60.3480 [Ac=-16475.0 LM=0.0] (Act=6.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0150.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [248 frames] -61.4408 [Ac=-15237.3 LM=0.0] (Act=9.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0151.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LEON silence  ==  [197 frames] -60.8167 [Ac=-11980.9 LM=0.0] (Act=8.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0152.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [273 frames] -62.4027 [Ac=-17035.9 LM=0.0] (Act=10.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0153.mfc
+Created lattice with 44 nodes / 43 arcs from label file
+silence TELEFONO SIETE SEIS CERO CERO SEIS SIETE OCHO SEIS CUATRO TRES SEIS SIETE CUATRO CUATRO SIETE SIETE NUEVE CERO DOS OCHO UNO CERO TRES CINCO OCHO DOS CUATRO CERO OCHO TRES CUATRO NUEVE DOS SIETE CERO SIETE CUATRO NUEVE CERO SEIS OCHO silence  ==  [2913 frames] -64.0969 [Ac=-186714.3 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0154.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LEON silence  ==  [248 frames] -59.4565 [Ac=-14745.2 LM=0.0] (Act=8.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0155.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR DIAZ silence  ==  [197 frames] -58.8146 [Ac=-11586.5 LM=0.0] (Act=9.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0156.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [312 frames] -58.8044 [Ac=-18347.0 LM=0.0] (Act=9.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0157.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TELEFONO UNO NUEVE CERO TRES NUEVE UNO TRES NUEVE OCHO OCHO silence  ==  [856 frames] -60.1379 [Ac=-51478.0 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0158.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [350 frames] -58.5567 [Ac=-20494.9 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0159.mfc
+Created lattice with 27 nodes / 26 arcs from label file
+silence TELEFONO NUEVE TRES SEIS OCHO NUEVE CINCO NUEVE NUEVE CUATRO UNO SIETE SIETE SEIS UNO UNO OCHO SIETE OCHO CUATRO SIETE SEIS DOS CERO CINCO silence  ==  [1907 frames] -60.8417 [Ac=-116025.1 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0160.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence TELEFONO SIETE UNO silence  ==  [286 frames] -57.4352 [Ac=-16426.5 LM=0.0] (Act=6.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0161.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence TELEFONO DOS CERO SEIS UNO SIETE DOS CINCO silence  ==  [696 frames] -59.1389 [Ac=-41160.7 LM=0.0] (Act=6.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0162.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR LUIS GUEVARA silence  ==  [325 frames] -59.7929 [Ac=-19432.7 LM=0.0] (Act=7.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0163.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence TELEFONO CINCO CINCO CUATRO CUATRO SIETE CUATRO NUEVE OCHO CINCO NUEVE CUATRO NUEVE silence  ==  [934 frames] -62.7940 [Ac=-58649.6 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0164.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence TELEFONO CERO OCHO TRES CUATRO UNO UNO TRES SIETE silence  ==  [671 frames] -59.7483 [Ac=-40091.1 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0165.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [248 frames] -61.9379 [Ac=-15360.6 LM=0.0] (Act=10.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0166.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [286 frames] -56.3017 [Ac=-16102.3 LM=0.0] (Act=9.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0167.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [287 frames] -58.9628 [Ac=-16922.3 LM=0.0] (Act=6.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0168.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO SIETE CUATRO SEIS SIETE SEIS NUEVE silence  ==  [594 frames] -59.5542 [Ac=-35375.2 LM=0.0] (Act=7.2)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0169.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR DIAZ silence  ==  [261 frames] -57.3363 [Ac=-14964.8 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0170.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO UNO silence  ==  [254 frames] -54.5449 [Ac=-13854.4 LM=0.0] (Act=5.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0171.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence TELEFONO SIETE UNO TRES SIETE CUATRO NUEVE CINCO DOS CINCO UNO CUATRO SIETE silence  ==  [965 frames] -61.0305 [Ac=-58894.5 LM=0.0] (Act=6.6)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0172.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [222 frames] -57.3569 [Ac=-12733.2 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0173.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [273 frames] -59.0382 [Ac=-16117.4 LM=0.0] (Act=9.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0174.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR DIAZ silence  ==  [299 frames] -54.7295 [Ac=-16364.1 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0175.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+silence TELEFONO CERO SEIS DOS OCHO SEIS CERO CUATRO SEIS CINCO CUATRO DOS CINCO SIETE UNO SEIS TRES SIETE silence  ==  [1286 frames] -59.8332 [Ac=-76945.5 LM=0.0] (Act=6.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0176.mfc
+Created lattice with 27 nodes / 26 arcs from label file
+silence TELEFONO SIETE SIETE TRES CERO CINCO SEIS DOS UNO NUEVE SIETE TRES CINCO CUATRO CERO CINCO SIETE CUATRO SIETE SIETE CUATRO CINCO UNO OCHO UNO silence  ==  [1972 frames] -58.7030 [Ac=-115762.3 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0177.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [273 frames] -58.3039 [Ac=-15917.0 LM=0.0] (Act=6.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0178.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TELEFONO TRES SIETE CINCO TRES SEIS OCHO CERO DOS SIETE SEIS silence  ==  [824 frames] -59.6344 [Ac=-49138.7 LM=0.0] (Act=6.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0179.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LUIS GUEVARA silence  ==  [338 frames] -56.4512 [Ac=-19080.5 LM=0.0] (Act=6.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0180.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence TELEFONO SIETE CUATRO SEIS CINCO TRES TRES silence  ==  [607 frames] -57.3140 [Ac=-34789.6 LM=0.0] (Act=6.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0181.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [190 frames] -58.6140 [Ac=-11136.7 LM=0.0] (Act=8.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0182.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [325 frames] -57.8112 [Ac=-18788.6 LM=0.0] (Act=9.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0183.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [286 frames] -60.0458 [Ac=-17173.1 LM=0.0] (Act=9.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0184.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR GUEVARA silence  ==  [254 frames] -58.8854 [Ac=-14956.9 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0185.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence TELEFONO CUATRO DOS TRES silence  ==  [389 frames] -61.4459 [Ac=-23902.5 LM=0.0] (Act=6.9)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0186.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [275 frames] -60.2984 [Ac=-16582.1 LM=0.0] (Act=9.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0187.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR JORGE LUIS silence  ==  [273 frames] -60.9334 [Ac=-16634.8 LM=0.0] (Act=8.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0188.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+silence TELEFONO SIETE CERO UNO CINCO SEIS CERO SIETE TRES SEIS SEIS UNO UNO UNO CINCO silence  ==  [1190 frames] -57.3136 [Ac=-68203.2 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0189.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR JORGE LUIS silence  ==  [261 frames] -61.2542 [Ac=-15987.4 LM=0.0] (Act=9.8)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0190.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR LEISSI LEON silence  ==  [273 frames] -58.3435 [Ac=-15927.8 LM=0.0] (Act=7.1)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0191.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR GUEVARA silence  ==  [197 frames] -62.6424 [Ac=-12340.6 LM=0.0] (Act=11.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0192.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LUIS silence  ==  [248 frames] -56.6111 [Ac=-14039.6 LM=0.0] (Act=7.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0193.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence TELEFONO DOS TRES SIETE silence  ==  [408 frames] -55.9532 [Ac=-22828.9 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0194.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence LLAMAR CARLOS DIAZ silence  ==  [338 frames] -57.3726 [Ac=-19391.9 LM=0.0] (Act=10.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0195.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence TELEFONO CERO silence  ==  [197 frames] -61.5712 [Ac=-12129.5 LM=0.0] (Act=6.0)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0196.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence MARCAR GUEVARA silence  ==  [241 frames] -58.6928 [Ac=-14145.0 LM=0.0] (Act=8.5)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0197.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence MARCAR CARLOS DIAZ silence  ==  [299 frames] -61.5949 [Ac=-18416.9 LM=0.0] (Act=8.3)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0198.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+silence TELEFONO CINCO CERO OCHO SEIS SEIS CERO DOS UNO CERO CINCO OCHO CUATRO TRES SEIS CINCO SIETE TRES DOS CINCO CUATRO CERO silence  ==  [1657 frames] -59.9745 [Ac=-99377.7 LM=0.0] (Act=6.4)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0199.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence LLAMAR LEON silence  ==  [222 frames] -57.7283 [Ac=-12815.7 LM=0.0] (Act=8.7)
+Aligning File: /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData/T0200.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence TELEFONO SEIS CUATRO CERO DOS UNO silence  ==  [530 frames] -58.3397 [Ac=-30920.1 LM=0.0] (Act=6.3)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                 FALSE
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND            MFCC_0_D_A
+

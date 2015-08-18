@@ -1,0 +1,810 @@
+------------------------ Sentence Scores --------------------------
+====================== HTK Results Analysis =======================
+  Date: Wed Oct 20 23:32:22 2010
+  Ref : testref1.mlf
+  Rec : recout1.mlf
+-------------------------- File Results ---------------------------
+testT0001.rec:  100.00( 90.48)  [H=  21, D=  0, S=  0, I=  2, N= 21]
+Aligned transcription: testT0001.lab vs testT0001.rec
+ LAB:            TELEFONO DOS SEIS CUATRO TRES UNO OCHO DOS CINCO CINCO CUATRO UNO SEIS CUATRO SEIS CERO CINCO SIETE CUATRO NUEVE CERO          
+ REC: SENT-START TELEFONO DOS SEIS CUATRO TRES UNO OCHO DOS CINCO CINCO CUATRO UNO SEIS CUATRO SEIS CERO CINCO SIETE CUATRO NUEVE CERO SENT-END 
+testT0002.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0002.lab vs testT0002.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0003.rec:  100.00( 84.62)  [H=  13, D=  0, S=  0, I=  2, N= 13]
+Aligned transcription: testT0003.lab vs testT0003.rec
+ LAB:            TELEFONO SEIS SIETE SIETE UNO UNO DOS DOS UNO SIETE CINCO CUATRO OCHO          
+ REC: SENT-START TELEFONO SEIS SIETE SIETE UNO UNO DOS DOS UNO SIETE CINCO CUATRO OCHO SENT-END 
+testT0004.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0004.lab vs testT0004.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0005.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0005.lab vs testT0005.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0006.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0006.lab vs testT0006.rec
+ LAB:            MARCAR LEON          
+ REC: SENT-START MARCAR LEON SENT-END 
+testT0007.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0007.lab vs testT0007.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0008.rec:  100.00( 80.00)  [H=  10, D=  0, S=  0, I=  2, N= 10]
+Aligned transcription: testT0008.lab vs testT0008.rec
+ LAB:            TELEFONO OCHO SIETE SIETE DOS CERO TRES OCHO CERO CUATRO          
+ REC: SENT-START TELEFONO OCHO SIETE SIETE DOS CERO TRES OCHO CERO CUATRO SENT-END 
+testT0009.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0009.lab vs testT0009.rec
+ LAB:            TELEFONO UNO          
+ REC: SENT-START TELEFONO UNO SENT-END 
+testT0010.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0010.lab vs testT0010.rec
+ LAB:            LLAMAR LEON          
+ REC: SENT-START LLAMAR LEON SENT-END 
+testT0011.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0011.lab vs testT0011.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0012.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0012.lab vs testT0012.rec
+ LAB:            TELEFONO SEIS TRES          
+ REC: SENT-START TELEFONO SEIS TRES SENT-END 
+testT0013.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0013.lab vs testT0013.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0014.rec:  100.00( 84.21)  [H=  19, D=  0, S=  0, I=  3, N= 19]
+Aligned transcription: testT0014.lab vs testT0014.rec
+ LAB:            TELEFONO DOS OCHO NUEVE SIETE CUATRO CINCO     CERO DOS CERO TRES CINCO CINCO SEIS NUEVE NUEVE CINCO OCHO DOS          
+ REC: SENT-START TELEFONO DOS OCHO NUEVE SIETE CUATRO CINCO DOS CERO DOS CERO TRES CINCO CINCO SEIS NUEVE NUEVE CINCO OCHO DOS SENT-END 
+testT0015.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0015.lab vs testT0015.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0016.rec:  100.00( 91.67)  [H=  24, D=  0, S=  0, I=  2, N= 24]
+Aligned transcription: testT0016.lab vs testT0016.rec
+ LAB:            TELEFONO CERO CINCO DOS OCHO CINCO CUATRO OCHO CUATRO OCHO TRES CINCO SIETE CINCO SEIS TRES UNO SIETE CINCO CINCO CINCO TRES CERO DOS          
+ REC: SENT-START TELEFONO CERO CINCO DOS OCHO CINCO CUATRO OCHO CUATRO OCHO TRES CINCO SIETE CINCO SEIS TRES UNO SIETE CINCO CINCO CINCO TRES CERO DOS SENT-END 
+testT0017.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0017.lab vs testT0017.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0018.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0018.lab vs testT0018.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0019.rec:  100.00( 87.50)  [H=  16, D=  0, S=  0, I=  2, N= 16]
+Aligned transcription: testT0019.lab vs testT0019.rec
+ LAB:            TELEFONO UNO UNO SIETE OCHO DOS TRES CUATRO CERO CERO DOS SEIS CINCO CUATRO SIETE SEIS          
+ REC: SENT-START TELEFONO UNO UNO SIETE OCHO DOS TRES CUATRO CERO CERO DOS SEIS CINCO CUATRO SIETE SEIS SENT-END 
+testT0020.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0020.lab vs testT0020.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0021.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0021.lab vs testT0021.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0022.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0022.lab vs testT0022.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0023.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0023.lab vs testT0023.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0024.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0024.lab vs testT0024.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0025.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0025.lab vs testT0025.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0026.rec:  100.00( 81.82)  [H=  11, D=  0, S=  0, I=  2, N= 11]
+Aligned transcription: testT0026.lab vs testT0026.rec
+ LAB:            TELEFONO SEIS TRES OCHO OCHO OCHO CINCO OCHO OCHO CINCO UNO          
+ REC: SENT-START TELEFONO SEIS TRES OCHO OCHO OCHO CINCO OCHO OCHO CINCO UNO SENT-END 
+testT0027.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0027.lab vs testT0027.rec
+ LAB:            TELEFONO UNO CINCO NUEVE DOS CINCO CUATRO          
+ REC: SENT-START TELEFONO UNO CINCO NUEVE DOS CINCO CUATRO SENT-END 
+testT0028.rec:  100.00( 83.33)  [H=  12, D=  0, S=  0, I=  2, N= 12]
+Aligned transcription: testT0028.lab vs testT0028.rec
+ LAB:            TELEFONO DOS CUATRO CERO SEIS CINCO SIETE NUEVE NUEVE SEIS CUATRO SEIS          
+ REC: SENT-START TELEFONO DOS CUATRO CERO SEIS CINCO SIETE NUEVE NUEVE SEIS CUATRO SEIS SENT-END 
+testT0029.rec:   50.00(-50.00)  [H=   1, D=  0, S=  1, I=  2, N=  2]
+Aligned transcription: testT0029.lab vs testT0029.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0030.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0030.lab vs testT0030.rec
+ LAB:            TELEFONO SIETE          
+ REC: SENT-START TELEFONO SIETE SENT-END 
+testT0031.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0031.lab vs testT0031.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0032.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0032.lab vs testT0032.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0033.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0033.lab vs testT0033.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0034.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0034.lab vs testT0034.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0035.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0035.lab vs testT0035.rec
+ LAB:            MARCAR LEON          
+ REC: SENT-START MARCAR LEON SENT-END 
+testT0036.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0036.lab vs testT0036.rec
+ LAB:            MARCAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0037.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0037.lab vs testT0037.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0038.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0038.lab vs testT0038.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0039.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0039.lab vs testT0039.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0040.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0040.lab vs testT0040.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0041.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0041.lab vs testT0041.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0042.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0042.lab vs testT0042.rec
+ LAB:            MARCAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0043.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0043.lab vs testT0043.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0044.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0044.lab vs testT0044.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0045.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0045.lab vs testT0045.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0046.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0046.lab vs testT0046.rec
+ LAB:            LLAMAR LEON          
+ REC: SENT-START LLAMAR LEON SENT-END 
+testT0047.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0047.lab vs testT0047.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0048.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0048.lab vs testT0048.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0049.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0049.lab vs testT0049.rec
+ LAB:            MARCAR CARLOS DIAZ          
+ REC: SENT-START MARCAR CARLOS DIAZ SENT-END 
+testT0050.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0050.lab vs testT0050.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0051.rec:  100.00( 60.00)  [H=   5, D=  0, S=  0, I=  2, N=  5]
+Aligned transcription: testT0051.lab vs testT0051.rec
+ LAB:            TELEFONO SEIS DOS CUATRO SIETE          
+ REC: SENT-START TELEFONO SEIS DOS CUATRO SIETE SENT-END 
+testT0052.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0052.lab vs testT0052.rec
+ LAB:            LLAMAR LEON          
+ REC: SENT-START LLAMAR LEON SENT-END 
+testT0053.rec:  100.00( 50.00)  [H=   4, D=  0, S=  0, I=  2, N=  4]
+Aligned transcription: testT0053.lab vs testT0053.rec
+ LAB:            TELEFONO UNO UNO CINCO          
+ REC: SENT-START TELEFONO UNO UNO CINCO SENT-END 
+testT0054.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0054.lab vs testT0054.rec
+ LAB:            MARCAR DIAZ          
+ REC: SENT-START MARCAR DIAZ SENT-END 
+testT0055.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0055.lab vs testT0055.rec
+ LAB:            MARCAR LEON          
+ REC: SENT-START MARCAR LEON SENT-END 
+testT0056.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0056.lab vs testT0056.rec
+ LAB:            MARCAR CARLOS DIAZ          
+ REC: SENT-START MARCAR CARLOS DIAZ SENT-END 
+testT0057.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0057.lab vs testT0057.rec
+ LAB:            TELEFONO DOS          
+ REC: SENT-START TELEFONO DOS SENT-END 
+testT0058.rec:  100.00( 94.74)  [H=  38, D=  0, S=  0, I=  2, N= 38]
+Aligned transcription: testT0058.lab vs testT0058.rec
+ LAB:            TELEFONO CERO DOS SIETE UNO CUATRO NUEVE NUEVE CERO TRES CUATRO CUATRO OCHO NUEVE OCHO NUEVE SIETE UNO CUATRO CINCO CUATRO DOS SEIS CUATRO CINCO SEIS CINCO CINCO TRES SIETE DOS CUATRO SEIS CINCO SEIS CERO DOS CERO          
+ REC: SENT-START TELEFONO CERO DOS SIETE UNO CUATRO NUEVE NUEVE CERO TRES CUATRO CUATRO OCHO NUEVE OCHO NUEVE SIETE UNO CUATRO CINCO CUATRO DOS SEIS CUATRO CINCO SEIS CINCO CINCO TRES SIETE DOS CUATRO SEIS CINCO SEIS CERO DOS CERO SENT-END 
+testT0059.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0059.lab vs testT0059.rec
+ LAB:            MARCAR DIAZ          
+ REC: SENT-START MARCAR DIAZ SENT-END 
+testT0060.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0060.lab vs testT0060.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0061.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0061.lab vs testT0061.rec
+ LAB:            TELEFONO NUEVE SEIS          
+ REC: SENT-START TELEFONO NUEVE SEIS SENT-END 
+testT0062.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0062.lab vs testT0062.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0063.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0063.lab vs testT0063.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0064.rec:  100.00( 60.00)  [H=   5, D=  0, S=  0, I=  2, N=  5]
+Aligned transcription: testT0064.lab vs testT0064.rec
+ LAB:            TELEFONO SEIS SIETE CERO NUEVE          
+ REC: SENT-START TELEFONO SEIS SIETE CERO NUEVE SENT-END 
+testT0065.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0065.lab vs testT0065.rec
+ LAB:            TELEFONO CERO          
+ REC: SENT-START TELEFONO CERO SENT-END 
+testT0066.rec:  100.00( 92.31)  [H=  26, D=  0, S=  0, I=  2, N= 26]
+Aligned transcription: testT0066.lab vs testT0066.rec
+ LAB:            TELEFONO SEIS NUEVE UNO NUEVE CINCO NUEVE OCHO DOS TRES SIETE SIETE CERO CERO NUEVE UNO UNO TRES DOS CUATRO DOS UNO CINCO CINCO CUATRO SEIS          
+ REC: SENT-START TELEFONO SEIS NUEVE UNO NUEVE CINCO NUEVE OCHO DOS TRES SIETE SIETE CERO CERO NUEVE UNO UNO TRES DOS CUATRO DOS UNO CINCO CINCO CUATRO SEIS SENT-END 
+testT0067.rec:  100.00( 85.71)  [H=  14, D=  0, S=  0, I=  2, N= 14]
+Aligned transcription: testT0067.lab vs testT0067.rec
+ LAB:            TELEFONO SIETE TRES SEIS SEIS SIETE TRES NUEVE SEIS NUEVE TRES DOS CUATRO DOS          
+ REC: SENT-START TELEFONO SIETE TRES SEIS SEIS SIETE TRES NUEVE SEIS NUEVE TRES DOS CUATRO DOS SENT-END 
+testT0068.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0068.lab vs testT0068.rec
+ LAB:            MARCAR LEON          
+ REC: SENT-START MARCAR LEON SENT-END 
+testT0069.rec:  100.00( 60.00)  [H=   5, D=  0, S=  0, I=  2, N=  5]
+Aligned transcription: testT0069.lab vs testT0069.rec
+ LAB:            TELEFONO SEIS UNO CERO UNO          
+ REC: SENT-START TELEFONO SEIS UNO CERO UNO SENT-END 
+testT0070.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0070.lab vs testT0070.rec
+ LAB:            TELEFONO DOS          
+ REC: SENT-START TELEFONO DOS SENT-END 
+testT0071.rec:  100.00( 92.00)  [H=  25, D=  0, S=  0, I=  2, N= 25]
+Aligned transcription: testT0071.lab vs testT0071.rec
+ LAB:            TELEFONO SIETE DOS OCHO SEIS CERO NUEVE SIETE SIETE OCHO UNO UNO OCHO SEIS TRES CINCO SIETE OCHO OCHO DOS OCHO UNO DOS CINCO OCHO          
+ REC: SENT-START TELEFONO SIETE DOS OCHO SEIS CERO NUEVE SIETE SIETE OCHO UNO UNO OCHO SEIS TRES CINCO SIETE OCHO OCHO DOS OCHO UNO DOS CINCO OCHO SENT-END 
+testT0072.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0072.lab vs testT0072.rec
+ LAB:            TELEFONO UNO UNO CERO CERO CINCO UNO          
+ REC: SENT-START TELEFONO UNO UNO CERO CERO CINCO UNO SENT-END 
+testT0073.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0073.lab vs testT0073.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0074.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0074.lab vs testT0074.rec
+ LAB:            TELEFONO CUATRO CINCO UNO SEIS OCHO DOS          
+ REC: SENT-START TELEFONO CUATRO CINCO UNO SEIS OCHO DOS SENT-END 
+testT0075.rec:  100.00( 77.78)  [H=   9, D=  0, S=  0, I=  2, N=  9]
+Aligned transcription: testT0075.lab vs testT0075.rec
+ LAB:            TELEFONO SEIS SIETE CERO TRES CINCO TRES TRES TRES          
+ REC: SENT-START TELEFONO SEIS SIETE CERO TRES CINCO TRES TRES TRES SENT-END 
+testT0076.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0076.lab vs testT0076.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0077.rec:  100.00( 60.00)  [H=   5, D=  0, S=  0, I=  2, N=  5]
+Aligned transcription: testT0077.lab vs testT0077.rec
+ LAB:            TELEFONO TRES TRES CINCO UNO          
+ REC: SENT-START TELEFONO TRES TRES CINCO UNO SENT-END 
+testT0078.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0078.lab vs testT0078.rec
+ LAB:            TELEFONO DOS DOS OCHO CINCO DOS SEIS          
+ REC: SENT-START TELEFONO DOS DOS OCHO CINCO DOS SEIS SENT-END 
+testT0079.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0079.lab vs testT0079.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0080.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0080.lab vs testT0080.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0081.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0081.lab vs testT0081.rec
+ LAB:            TELEFONO SEIS          
+ REC: SENT-START TELEFONO SEIS SENT-END 
+testT0082.rec:  100.00( 60.00)  [H=   5, D=  0, S=  0, I=  2, N=  5]
+Aligned transcription: testT0082.lab vs testT0082.rec
+ LAB:            TELEFONO OCHO SIETE CERO OCHO          
+ REC: SENT-START TELEFONO OCHO SIETE CERO OCHO SENT-END 
+testT0083.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0083.lab vs testT0083.rec
+ LAB:            MARCAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0084.rec:  100.00( 88.24)  [H=  17, D=  0, S=  0, I=  2, N= 17]
+Aligned transcription: testT0084.lab vs testT0084.rec
+ LAB:            TELEFONO SIETE UNO CERO CINCO UNO TRES SIETE CERO CINCO CERO NUEVE NUEVE TRES CERO DOS TRES          
+ REC: SENT-START TELEFONO SIETE UNO CERO CINCO UNO TRES SIETE CERO CINCO CERO NUEVE NUEVE TRES CERO DOS TRES SENT-END 
+testT0085.rec:  100.00( 50.00)  [H=   4, D=  0, S=  0, I=  2, N=  4]
+Aligned transcription: testT0085.lab vs testT0085.rec
+ LAB:            TELEFONO TRES OCHO CERO          
+ REC: SENT-START TELEFONO TRES OCHO CERO SENT-END 
+testT0086.rec:  100.00( 87.50)  [H=  16, D=  0, S=  0, I=  2, N= 16]
+Aligned transcription: testT0086.lab vs testT0086.rec
+ LAB:            TELEFONO OCHO TRES DOS NUEVE SIETE CINCO CUATRO CERO SIETE OCHO OCHO CUATRO NUEVE UNO DOS          
+ REC: SENT-START TELEFONO OCHO TRES DOS NUEVE SIETE CINCO CUATRO CERO SIETE OCHO OCHO CUATRO NUEVE UNO DOS SENT-END 
+testT0087.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0087.lab vs testT0087.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0088.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0088.lab vs testT0088.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0089.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0089.lab vs testT0089.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0090.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0090.lab vs testT0090.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0091.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0091.lab vs testT0091.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0092.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0092.lab vs testT0092.rec
+ LAB:            TELEFONO DOS UNO CINCO DOS TRES CERO          
+ REC: SENT-START TELEFONO DOS UNO CINCO DOS TRES CERO SENT-END 
+testT0093.rec:  100.00( 50.00)  [H=   4, D=  0, S=  0, I=  2, N=  4]
+Aligned transcription: testT0093.lab vs testT0093.rec
+ LAB:            TELEFONO OCHO DOS DOS          
+ REC: SENT-START TELEFONO OCHO DOS DOS SENT-END 
+testT0094.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0094.lab vs testT0094.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0095.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0095.lab vs testT0095.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0096.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0096.lab vs testT0096.rec
+ LAB:            TELEFONO UNO          
+ REC: SENT-START TELEFONO UNO SENT-END 
+testT0097.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0097.lab vs testT0097.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0098.rec:  100.00( 96.23)  [H=  53, D=  0, S=  0, I=  2, N= 53]
+Aligned transcription: testT0098.lab vs testT0098.rec
+ LAB:            TELEFONO TRES CUATRO DOS OCHO CINCO CUATRO UNO CUATRO CINCO DOS CERO SIETE CERO TRES TRES SIETE CERO CINCO TRES SIETE CINCO CINCO SIETE CERO UNO SEIS SIETE OCHO DOS UNO UNO OCHO UNO NUEVE NUEVE NUEVE UNO DOS DOS CUATRO SIETE SIETE SIETE CUATRO TRES CERO CUATRO DOS NUEVE TRES CINCO TRES          
+ REC: SENT-START TELEFONO TRES CUATRO DOS OCHO CINCO CUATRO UNO CUATRO CINCO DOS CERO SIETE CERO TRES TRES SIETE CERO CINCO TRES SIETE CINCO CINCO SIETE CERO UNO SEIS SIETE OCHO DOS UNO UNO OCHO UNO NUEVE NUEVE NUEVE UNO DOS DOS CUATRO SIETE SIETE SIETE CUATRO TRES CERO CUATRO DOS NUEVE TRES CINCO TRES SENT-END 
+testT0099.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0099.lab vs testT0099.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0100.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0100.lab vs testT0100.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0101.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0101.lab vs testT0101.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0102.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0102.lab vs testT0102.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0103.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0103.lab vs testT0103.rec
+ LAB:            TELEFONO UNO          
+ REC: SENT-START TELEFONO UNO SENT-END 
+testT0104.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0104.lab vs testT0104.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0105.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0105.lab vs testT0105.rec
+ LAB:            MARCAR CARLOS DIAZ          
+ REC: SENT-START MARCAR CARLOS DIAZ SENT-END 
+testT0106.rec:  100.00( 85.71)  [H=  14, D=  0, S=  0, I=  2, N= 14]
+Aligned transcription: testT0106.lab vs testT0106.rec
+ LAB:            TELEFONO DOS CUATRO CINCO CUATRO CERO NUEVE CERO TRES TRES NUEVE TRES TRES NUEVE          
+ REC: SENT-START TELEFONO DOS CUATRO CINCO CUATRO CERO NUEVE CERO TRES TRES NUEVE TRES TRES NUEVE SENT-END 
+testT0107.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0107.lab vs testT0107.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0108.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0108.lab vs testT0108.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0109.rec:  100.00( 92.59)  [H=  27, D=  0, S=  0, I=  2, N= 27]
+Aligned transcription: testT0109.lab vs testT0109.rec
+ LAB:            TELEFONO SEIS TRES DOS TRES SEIS UNO SIETE TRES SIETE OCHO CERO DOS OCHO CINCO DOS CERO CERO NUEVE CUATRO SIETE SIETE CERO UNO SEIS TRES CUATRO          
+ REC: SENT-START TELEFONO SEIS TRES DOS TRES SEIS UNO SIETE TRES SIETE OCHO CERO DOS OCHO CINCO DOS CERO CERO NUEVE CUATRO SIETE SIETE CERO UNO SEIS TRES CUATRO SENT-END 
+testT0110.rec:  100.00( 83.33)  [H=  12, D=  0, S=  0, I=  2, N= 12]
+Aligned transcription: testT0110.lab vs testT0110.rec
+ LAB:            TELEFONO UNO CINCO SEIS NUEVE SIETE SIETE OCHO CUATRO CUATRO OCHO CINCO          
+ REC: SENT-START TELEFONO UNO CINCO SEIS NUEVE SIETE SIETE OCHO CUATRO CUATRO OCHO CINCO SENT-END 
+testT0111.rec:  100.00( 80.00)  [H=  10, D=  0, S=  0, I=  2, N= 10]
+Aligned transcription: testT0111.lab vs testT0111.rec
+ LAB:            TELEFONO CINCO SEIS SIETE SIETE CINCO OCHO UNO CINCO CINCO          
+ REC: SENT-START TELEFONO CINCO SEIS SIETE SIETE CINCO OCHO UNO CINCO CINCO SENT-END 
+testT0112.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0112.lab vs testT0112.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0113.rec:  100.00( 66.67)  [H=   6, D=  0, S=  0, I=  2, N=  6]
+Aligned transcription: testT0113.lab vs testT0113.rec
+ LAB:            TELEFONO SEIS SEIS TRES CINCO CINCO          
+ REC: SENT-START TELEFONO SEIS SEIS TRES CINCO CINCO SENT-END 
+testT0114.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0114.lab vs testT0114.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0115.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0115.lab vs testT0115.rec
+ LAB:            TELEFONO SIETE          
+ REC: SENT-START TELEFONO SIETE SENT-END 
+testT0116.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0116.lab vs testT0116.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0117.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0117.lab vs testT0117.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0118.rec:  100.00( 66.67)  [H=   6, D=  0, S=  0, I=  2, N=  6]
+Aligned transcription: testT0118.lab vs testT0118.rec
+ LAB:            TELEFONO CERO NUEVE OCHO UNO CINCO          
+ REC: SENT-START TELEFONO CERO NUEVE OCHO UNO CINCO SENT-END 
+testT0119.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0119.lab vs testT0119.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0120.rec:  100.00( 75.00)  [H=   8, D=  0, S=  0, I=  2, N=  8]
+Aligned transcription: testT0120.lab vs testT0120.rec
+ LAB:            TELEFONO DOS NUEVE SIETE CINCO DOS OCHO CERO          
+ REC: SENT-START TELEFONO DOS NUEVE SIETE CINCO DOS OCHO CERO SENT-END 
+testT0121.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0121.lab vs testT0121.rec
+ LAB:            MARCAR GUEVARA          
+ REC: SENT-START MARCAR GUEVARA SENT-END 
+testT0122.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0122.lab vs testT0122.rec
+ LAB:            MARCAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0123.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0123.lab vs testT0123.rec
+ LAB:            TELEFONO UNO          
+ REC: SENT-START TELEFONO UNO SENT-END 
+testT0124.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0124.lab vs testT0124.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0125.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0125.lab vs testT0125.rec
+ LAB:            MARCAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0126.rec:  100.00( 80.00)  [H=  10, D=  0, S=  0, I=  2, N= 10]
+Aligned transcription: testT0126.lab vs testT0126.rec
+ LAB:            TELEFONO CUATRO TRES CUATRO DOS NUEVE UNO OCHO DOS DOS          
+ REC: SENT-START TELEFONO CUATRO TRES CUATRO DOS NUEVE UNO OCHO DOS DOS SENT-END 
+testT0127.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0127.lab vs testT0127.rec
+ LAB:            MARCAR CARLOS DIAZ          
+ REC: SENT-START MARCAR CARLOS DIAZ SENT-END 
+testT0128.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0128.lab vs testT0128.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0129.rec:  100.00( 77.78)  [H=   9, D=  0, S=  0, I=  2, N=  9]
+Aligned transcription: testT0129.lab vs testT0129.rec
+ LAB:            TELEFONO UNO CERO SIETE SIETE CUATRO SIETE SEIS TRES          
+ REC: SENT-START TELEFONO UNO CERO SIETE SIETE CUATRO SIETE SEIS TRES SENT-END 
+testT0130.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0130.lab vs testT0130.rec
+ LAB:            TELEFONO SIETE DOS          
+ REC: SENT-START TELEFONO SIETE DOS SENT-END 
+testT0131.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0131.lab vs testT0131.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0132.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0132.lab vs testT0132.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0133.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0133.lab vs testT0133.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0134.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0134.lab vs testT0134.rec
+ LAB:            MARCAR LEON          
+ REC: SENT-START MARCAR LEON SENT-END 
+testT0135.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0135.lab vs testT0135.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0136.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0136.lab vs testT0136.rec
+ LAB:            LLAMAR LEISSI LEON          
+ REC: SENT-START LLAMAR LEISSI LEON SENT-END 
+testT0137.rec:  100.00( 90.91)  [H=  22, D=  0, S=  0, I=  2, N= 22]
+Aligned transcription: testT0137.lab vs testT0137.rec
+ LAB:            TELEFONO TRES CUATRO UNO UNO DOS UNO OCHO SEIS SIETE CERO UNO TRES OCHO DOS SIETE SEIS TRES DOS NUEVE CERO CINCO          
+ REC: SENT-START TELEFONO TRES CUATRO UNO UNO DOS UNO OCHO SEIS SIETE CERO UNO TRES OCHO DOS SIETE SEIS TRES DOS NUEVE CERO CINCO SENT-END 
+testT0138.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0138.lab vs testT0138.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0139.rec:  100.00( 60.00)  [H=   5, D=  0, S=  0, I=  2, N=  5]
+Aligned transcription: testT0139.lab vs testT0139.rec
+ LAB:            TELEFONO CERO CINCO OCHO TRES          
+ REC: SENT-START TELEFONO CERO CINCO OCHO TRES SENT-END 
+testT0140.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0140.lab vs testT0140.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0141.rec:  100.00( 93.33)  [H=  30, D=  0, S=  0, I=  2, N= 30]
+Aligned transcription: testT0141.lab vs testT0141.rec
+ LAB:            TELEFONO CERO OCHO CINCO NUEVE CINCO CINCO DOS TRES DOS UNO CINCO TRES DOS SIETE CINCO UNO SEIS DOS CUATRO CINCO NUEVE NUEVE SEIS SIETE CINCO TRES NUEVE OCHO OCHO          
+ REC: SENT-START TELEFONO CERO OCHO CINCO NUEVE CINCO CINCO DOS TRES DOS UNO CINCO TRES DOS SIETE CINCO UNO SEIS DOS CUATRO CINCO NUEVE NUEVE SEIS SIETE CINCO TRES NUEVE OCHO OCHO SENT-END 
+testT0142.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0142.lab vs testT0142.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0143.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0143.lab vs testT0143.rec
+ LAB:            MARCAR LUIS          
+ REC: SENT-START MARCAR LUIS SENT-END 
+testT0144.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0144.lab vs testT0144.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0145.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0145.lab vs testT0145.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0146.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0146.lab vs testT0146.rec
+ LAB:            MARCAR DIAZ          
+ REC: SENT-START MARCAR DIAZ SENT-END 
+testT0147.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0147.lab vs testT0147.rec
+ LAB:            MARCAR GUEVARA          
+ REC: SENT-START MARCAR GUEVARA SENT-END 
+testT0148.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0148.lab vs testT0148.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0149.rec:   66.67(  0.00)  [H=   2, D=  0, S=  1, I=  2, N=  3]
+Aligned transcription: testT0149.lab vs testT0149.rec
+ LAB:            TELEFONO SIETE CINCO          
+ REC: SENT-START TELEFONO CERO  CINCO SENT-END 
+testT0150.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0150.lab vs testT0150.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0151.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0151.lab vs testT0151.rec
+ LAB:            LLAMAR LEON          
+ REC: SENT-START LLAMAR LEON SENT-END 
+testT0152.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0152.lab vs testT0152.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0153.rec:  100.00( 95.24)  [H=  42, D=  0, S=  0, I=  2, N= 42]
+Aligned transcription: testT0153.lab vs testT0153.rec
+ LAB:            TELEFONO SIETE SEIS CERO CERO SEIS SIETE OCHO SEIS CUATRO TRES SEIS SIETE CUATRO CUATRO SIETE SIETE NUEVE CERO DOS OCHO UNO CERO TRES CINCO OCHO DOS CUATRO CERO OCHO TRES CUATRO NUEVE DOS SIETE CERO SIETE CUATRO NUEVE CERO SEIS OCHO          
+ REC: SENT-START TELEFONO SIETE SEIS CERO CERO SEIS SIETE OCHO SEIS CUATRO TRES SEIS SIETE CUATRO CUATRO SIETE SIETE NUEVE CERO DOS OCHO UNO CERO TRES CINCO OCHO DOS CUATRO CERO OCHO TRES CUATRO NUEVE DOS SIETE CERO SIETE CUATRO NUEVE CERO SEIS OCHO SENT-END 
+testT0154.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0154.lab vs testT0154.rec
+ LAB:            LLAMAR LEON          
+ REC: SENT-START LLAMAR LEON SENT-END 
+testT0155.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0155.lab vs testT0155.rec
+ LAB:            LLAMAR DIAZ          
+ REC: SENT-START LLAMAR DIAZ SENT-END 
+testT0156.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0156.lab vs testT0156.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0157.rec:  100.00( 81.82)  [H=  11, D=  0, S=  0, I=  2, N= 11]
+Aligned transcription: testT0157.lab vs testT0157.rec
+ LAB:            TELEFONO UNO NUEVE CERO TRES NUEVE UNO TRES NUEVE OCHO OCHO          
+ REC: SENT-START TELEFONO UNO NUEVE CERO TRES NUEVE UNO TRES NUEVE OCHO OCHO SENT-END 
+testT0158.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0158.lab vs testT0158.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0159.rec:  100.00( 92.00)  [H=  25, D=  0, S=  0, I=  2, N= 25]
+Aligned transcription: testT0159.lab vs testT0159.rec
+ LAB:            TELEFONO NUEVE TRES SEIS OCHO NUEVE CINCO NUEVE NUEVE CUATRO UNO SIETE SIETE SEIS UNO UNO OCHO SIETE OCHO CUATRO SIETE SEIS DOS CERO CINCO          
+ REC: SENT-START TELEFONO NUEVE TRES SEIS OCHO NUEVE CINCO NUEVE NUEVE CUATRO UNO SIETE SIETE SEIS UNO UNO OCHO SIETE OCHO CUATRO SIETE SEIS DOS CERO CINCO SENT-END 
+testT0160.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0160.lab vs testT0160.rec
+ LAB:            TELEFONO SIETE UNO          
+ REC: SENT-START TELEFONO SIETE UNO SENT-END 
+testT0161.rec:  100.00( 75.00)  [H=   8, D=  0, S=  0, I=  2, N=  8]
+Aligned transcription: testT0161.lab vs testT0161.rec
+ LAB:            TELEFONO DOS CERO SEIS UNO SIETE DOS CINCO          
+ REC: SENT-START TELEFONO DOS CERO SEIS UNO SIETE DOS CINCO SENT-END 
+testT0162.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0162.lab vs testT0162.rec
+ LAB:            LLAMAR LUIS GUEVARA          
+ REC: SENT-START LLAMAR LUIS GUEVARA SENT-END 
+testT0163.rec:  100.00( 84.62)  [H=  13, D=  0, S=  0, I=  2, N= 13]
+Aligned transcription: testT0163.lab vs testT0163.rec
+ LAB:            TELEFONO CINCO CINCO CUATRO CUATRO SIETE CUATRO NUEVE OCHO CINCO NUEVE CUATRO NUEVE          
+ REC: SENT-START TELEFONO CINCO CINCO CUATRO CUATRO SIETE CUATRO NUEVE OCHO CINCO NUEVE CUATRO NUEVE SENT-END 
+testT0164.rec:  100.00( 77.78)  [H=   9, D=  0, S=  0, I=  2, N=  9]
+Aligned transcription: testT0164.lab vs testT0164.rec
+ LAB:            TELEFONO CERO OCHO TRES CUATRO UNO UNO TRES SIETE          
+ REC: SENT-START TELEFONO CERO OCHO TRES CUATRO UNO UNO TRES SIETE SENT-END 
+testT0165.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0165.lab vs testT0165.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0166.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0166.lab vs testT0166.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0167.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0167.lab vs testT0167.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0168.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0168.lab vs testT0168.rec
+ LAB:            TELEFONO SIETE CUATRO SEIS SIETE SEIS NUEVE          
+ REC: SENT-START TELEFONO SIETE CUATRO SEIS SIETE SEIS NUEVE SENT-END 
+testT0169.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0169.lab vs testT0169.rec
+ LAB:            MARCAR DIAZ          
+ REC: SENT-START MARCAR DIAZ SENT-END 
+testT0170.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0170.lab vs testT0170.rec
+ LAB:            TELEFONO UNO          
+ REC: SENT-START TELEFONO UNO SENT-END 
+testT0171.rec:  100.00( 84.62)  [H=  13, D=  0, S=  0, I=  2, N= 13]
+Aligned transcription: testT0171.lab vs testT0171.rec
+ LAB:            TELEFONO SIETE UNO TRES SIETE CUATRO NUEVE CINCO DOS CINCO UNO CUATRO SIETE          
+ REC: SENT-START TELEFONO SIETE UNO TRES SIETE CUATRO NUEVE CINCO DOS CINCO UNO CUATRO SIETE SENT-END 
+testT0172.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0172.lab vs testT0172.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0173.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0173.lab vs testT0173.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0174.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0174.lab vs testT0174.rec
+ LAB:            MARCAR DIAZ          
+ REC: SENT-START MARCAR DIAZ SENT-END 
+testT0175.rec:  100.00( 88.89)  [H=  18, D=  0, S=  0, I=  2, N= 18]
+Aligned transcription: testT0175.lab vs testT0175.rec
+ LAB:            TELEFONO CERO SEIS DOS OCHO SEIS CERO CUATRO SEIS CINCO CUATRO DOS CINCO SIETE UNO SEIS TRES SIETE          
+ REC: SENT-START TELEFONO CERO SEIS DOS OCHO SEIS CERO CUATRO SEIS CINCO CUATRO DOS CINCO SIETE UNO SEIS TRES SIETE SENT-END 
+testT0176.rec:  100.00( 92.00)  [H=  25, D=  0, S=  0, I=  2, N= 25]
+Aligned transcription: testT0176.lab vs testT0176.rec
+ LAB:            TELEFONO SIETE SIETE TRES CERO CINCO SEIS DOS UNO NUEVE SIETE TRES CINCO CUATRO CERO CINCO SIETE CUATRO SIETE SIETE CUATRO CINCO UNO OCHO UNO          
+ REC: SENT-START TELEFONO SIETE SIETE TRES CERO CINCO SEIS DOS UNO NUEVE SIETE TRES CINCO CUATRO CERO CINCO SIETE CUATRO SIETE SIETE CUATRO CINCO UNO OCHO UNO SENT-END 
+testT0177.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0177.lab vs testT0177.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0178.rec:  100.00( 81.82)  [H=  11, D=  0, S=  0, I=  2, N= 11]
+Aligned transcription: testT0178.lab vs testT0178.rec
+ LAB:            TELEFONO TRES SIETE CINCO TRES SEIS OCHO CERO DOS SIETE SEIS          
+ REC: SENT-START TELEFONO TRES SIETE CINCO TRES SEIS OCHO CERO DOS SIETE SEIS SENT-END 
+testT0179.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0179.lab vs testT0179.rec
+ LAB:            MARCAR LUIS GUEVARA          
+ REC: SENT-START MARCAR LUIS GUEVARA SENT-END 
+testT0180.rec:  100.00( 71.43)  [H=   7, D=  0, S=  0, I=  2, N=  7]
+Aligned transcription: testT0180.lab vs testT0180.rec
+ LAB:            TELEFONO SIETE CUATRO SEIS CINCO TRES TRES          
+ REC: SENT-START TELEFONO SIETE CUATRO SEIS CINCO TRES TRES SENT-END 
+testT0181.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0181.lab vs testT0181.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0182.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0182.lab vs testT0182.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0183.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0183.lab vs testT0183.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0184.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0184.lab vs testT0184.rec
+ LAB:            MARCAR GUEVARA          
+ REC: SENT-START MARCAR GUEVARA SENT-END 
+testT0185.rec:  100.00( 50.00)  [H=   4, D=  0, S=  0, I=  2, N=  4]
+Aligned transcription: testT0185.lab vs testT0185.rec
+ LAB:            TELEFONO CUATRO DOS TRES          
+ REC: SENT-START TELEFONO CUATRO DOS TRES SENT-END 
+testT0186.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0186.lab vs testT0186.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0187.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0187.lab vs testT0187.rec
+ LAB:            MARCAR JORGE LUIS          
+ REC: SENT-START MARCAR JORGE LUIS SENT-END 
+testT0188.rec:  100.00( 86.67)  [H=  15, D=  0, S=  0, I=  2, N= 15]
+Aligned transcription: testT0188.lab vs testT0188.rec
+ LAB:            TELEFONO SIETE CERO UNO CINCO SEIS CERO SIETE TRES SEIS SEIS UNO UNO UNO CINCO          
+ REC: SENT-START TELEFONO SIETE CERO UNO CINCO SEIS CERO SIETE TRES SEIS SEIS UNO UNO UNO CINCO SENT-END 
+testT0189.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0189.lab vs testT0189.rec
+ LAB:            LLAMAR JORGE LUIS          
+ REC: SENT-START LLAMAR JORGE LUIS SENT-END 
+testT0190.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0190.lab vs testT0190.rec
+ LAB:            MARCAR LEISSI LEON          
+ REC: SENT-START MARCAR LEISSI LEON SENT-END 
+testT0191.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0191.lab vs testT0191.rec
+ LAB:            LLAMAR GUEVARA          
+ REC: SENT-START LLAMAR GUEVARA SENT-END 
+testT0192.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0192.lab vs testT0192.rec
+ LAB:            LLAMAR LUIS          
+ REC: SENT-START LLAMAR LUIS SENT-END 
+testT0193.rec:  100.00( 50.00)  [H=   4, D=  0, S=  0, I=  2, N=  4]
+Aligned transcription: testT0193.lab vs testT0193.rec
+ LAB:            TELEFONO DOS TRES SIETE          
+ REC: SENT-START TELEFONO DOS TRES SIETE SENT-END 
+testT0194.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0194.lab vs testT0194.rec
+ LAB:            LLAMAR CARLOS DIAZ          
+ REC: SENT-START LLAMAR CARLOS DIAZ SENT-END 
+testT0195.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0195.lab vs testT0195.rec
+ LAB:            TELEFONO CERO          
+ REC: SENT-START TELEFONO CERO SENT-END 
+testT0196.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0196.lab vs testT0196.rec
+ LAB:            MARCAR GUEVARA          
+ REC: SENT-START MARCAR GUEVARA SENT-END 
+testT0197.rec:  100.00( 33.33)  [H=   3, D=  0, S=  0, I=  2, N=  3]
+Aligned transcription: testT0197.lab vs testT0197.rec
+ LAB:            MARCAR CARLOS DIAZ          
+ REC: SENT-START MARCAR CARLOS DIAZ SENT-END 
+testT0198.rec:  100.00( 90.91)  [H=  22, D=  0, S=  0, I=  2, N= 22]
+Aligned transcription: testT0198.lab vs testT0198.rec
+ LAB:            TELEFONO CINCO CERO OCHO SEIS SEIS CERO DOS UNO CERO CINCO OCHO CUATRO TRES SEIS CINCO SIETE TRES DOS CINCO CUATRO CERO          
+ REC: SENT-START TELEFONO CINCO CERO OCHO SEIS SEIS CERO DOS UNO CERO CINCO OCHO CUATRO TRES SEIS CINCO SIETE TRES DOS CINCO CUATRO CERO SENT-END 
+testT0199.rec:  100.00(  0.00)  [H=   2, D=  0, S=  0, I=  2, N=  2]
+Aligned transcription: testT0199.lab vs testT0199.rec
+ LAB:            LLAMAR LEON          
+ REC: SENT-START LLAMAR LEON SENT-END 
+testT0200.rec:  100.00( 66.67)  [H=   6, D=  0, S=  0, I=  2, N=  6]
+Aligned transcription: testT0200.lab vs testT0200.rec
+ LAB:            TELEFONO SEIS CUATRO CERO DOS UNO          
+ REC: SENT-START TELEFONO SEIS CUATRO CERO DOS UNO SENT-END 
+------------------------ Overall Results --------------------------
+ENVIADAS: %Correct=0.00 [H=0, S=200, N=200]
+PALABRAS: %Corr=99.83, Acc=64.96 [H=1148, D=0, S=2, I=401, N=1150]
+===================================================================

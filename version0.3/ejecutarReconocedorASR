@@ -1,0 +1,286 @@
+#!/usr/local/bin/perl -w
+use strict;
+
+#----------------------------------------------------
+#RECOGNISING THE TEST DATA
+#create the script file codetr.scp with the following:
+#/home/.../testData/testT0001.wav /home/../testData/testT0001.mfc
+#/home/.../testData/testT0002.wav /home/../testData/testT0002.mfc
+#/home/.../testData/testT0003.wav /home/../testData/testT0003.mfc
+#with (makescp is a user program in perl)
+system('perl makeCodetst codetst.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+#create a config file with: (for test data TARGETKIND = MFCC_0_D_A)
+# Coding parameters
+#TARGETKIND = MFCC_0_D_A
+#TARGETRATE = 100000.0
+#SAVECOMPRESSED = T
+#SAVEWITHCRC = T
+#WINDOWSIZE = 250000.0
+#USEHAMMING = T
+#PREEMCOEF = 0.97
+#NUMCHANS = 26
+#CEPLIFTER = 22
+#NUMCEPS = 12
+#ENORMALISE = F
+
+#and finally (for training and test data)
+system('HCopy -T 1 -C configTest0 -S codetst.scp');
+print "Coding the test data finished\n";
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 0 -s 5 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results1');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 0 -s 10 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results2');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 0 -s 20 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results3');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 0 -s 40 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results4');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 0 -s 75 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results5');
+
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 0 -s 100 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results6');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 5 -s 0 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results7');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 10 -s 0 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results8');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 20 -s 0 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results9');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 40 -s 0 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results10');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 75 -s 0 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results11');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 100 -s 0 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results12');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 5 -s 95 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results13');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 20 -s 80 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results14');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 30 -s 70 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results15');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 45 -s 55 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results16');
+
+################################################################################################################
+#make the file called test.scp
+system('perl makeTestScp test.scp /home/jorjasso/SpeechRecognitionSystem/version0.1/trainingData');
+
+system('HVite -H hmm15/macros -H hmm15/hmmdefs -C configHVite -S test.scp -l ‘*’ -i recout.mlf -w wdnet -p 50 -s 50 dict tiedlist');
+ 
+
+#verify the file recout.mlf and modify whethevear neccesary
+system('perl recoutModified recout.mlf recout1.mlf');
+
+system('perl testrefModified testref.mlf testref1.mlf');
+
+#the file recout was suficient
+system('HResults -a ENVIADAS -b PALABRAS -t  -f  -I testref1.mlf tiedlist recout1.mlf>>results17');
+
+
+
